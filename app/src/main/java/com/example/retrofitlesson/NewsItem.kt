@@ -13,7 +13,7 @@ data class NewsItem(
 
     var type: Int,
     var title: String,
-    var img: Uri,
+    var img: String,
     var newsDate: String,
     var newsDateTimestamp: Long,
     var annotation: String,
